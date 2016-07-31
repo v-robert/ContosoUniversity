@@ -10,7 +10,7 @@
         public int EnrollmentID { get; set; }
         public int CourseID { get; set; }
         public int StudentID { get; set; }
-        public Grade? Grade { get; set; }
+        public Grade? Grade { get; set; } //zašto je ovdje "Grade?", a ne neko drugo svojstvo?//
 
         //također kao u students.cs//
         public virtual Course Course { get; set; }
